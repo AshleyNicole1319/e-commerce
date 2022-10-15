@@ -48,7 +48,15 @@ router.get('/:id', (req, res) => {
 
 //Create a New Tag
 router.post('/', (req, res) => {
-
+  Tag.create({
+    id: req.body.id,
+    tag_name: req.body.tag_name
+  })
+  .then(dbTagData => res.json(dbTagData))
+  .catch(err => {
+    console.log(err);
+    res.status(500).json(err);
+  })
 });
 
 //Updatae a Tag's Name by its ID Value
