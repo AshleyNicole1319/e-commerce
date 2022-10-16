@@ -8,9 +8,6 @@
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Test](#test)
-  * [Contributing](#contributing)
-  * [Technology](#Technology)
   * [Contact](#contact)
 
   # Description:
@@ -26,3 +23,6 @@
     
   # Usage
   This application allows user to view, add, update and delete categories, products and tags.
+
+  # Contact
+  Contact me at a-warford96@comcast.net 
